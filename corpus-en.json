@@ -1,0 +1,50 @@
+{
+  "name": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "run.browser",
+      "utterances": [
+        "run the browser and open the google page",
+        "i need browser",
+        "open browser"
+      ],
+      "answers": [
+        { "answer": "opening the browser" }
+      ]
+    },
+    {
+      "intent": "run.test",
+      "utterances": [
+        "run the tests",
+        "run tests",
+        "test everything"
+      ],
+      "answers": [
+        { "answer": "running tests" }
+      ]
+    },
+    {
+      "intent": "run.ls",
+      "utterances": [
+        "show me current directory",
+        "show me files in this directory",
+        "what files are in the current directory"
+      ],
+      "answers": [
+        { "answer": "show files in the directory" }
+      ]
+    },
+    {
+      "intent": "exit",
+      "utterances": [
+        "exit",
+        "quit",
+        "stop the app"
+      ],
+      "answers": [
+        { "answer": "stopping the app" }
+      ]
+    }
+  ]
+}
