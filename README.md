@@ -1,2 +1,2 @@
-# nlp-automation
-run automation tests through nlp
+#NLP automation
+- To start the chatbot `npm run console`
